@@ -1,0 +1,103 @@
+estudo flex box
+
+/* flex ao adicionar flex box, todos os elementos se tornam flex box
+
+
+
+
+
+*/ .flex{
+    display: flex;
+}
+
+
+.flex-wrap{
+    flex-wrap: wrap ou no wrap 
+}
+
+.flex-item-1 {
+    flex: 1 
+}
+
+dentro do container FLEX, tudo nas divs são flex ITEM;
+
+
+flex direction : padrao - row - em linha
+
+coluna eh padrao paara mobile 
+
+mudarr para fleex direction collum, row paara collum 
+
+flex 1 
+flex-direction: row-reverse;
+flex-direction: column-reverse;
+
+
+flex wrap
+define se qquebra ou nao quebra a linha
+
+padrao flex-wrap: nowwrap; nao quebraa 
+flex-wrap: wrap; quebraa 
+flex-wrap: wrap-reverse; quebra invertido 
+
+todos dentro do container com flex 1 
+
+
+flex- flow , atalho para direção flex direction
+
+
+ justify content, alinha os itens flex do container de acordo com a direção deles, dependendo 
+ se estao em linha ou colunaa 
+
+ justify-content: flex-start;
+ justify-content: flex-end;
+ justify-content: center;    margen dos itens devem estaar na classe .tem{
+    margin:5px
+ }
+
+ justify-content: space-between; se tiver dois itens eh perfeito, fica 1 em cada ponta, se quiser 1 alinhado no centro, tambem alinha
+ justify-content: space-around;
+
+ align-items
+
+flex-stretch
+faz todos os itens acompanhar o height, da pra ver com o background pintado 
+
+items flex-start
+ os itens ocupam exatamente o tamanho deles 
+items flex-end
+align-items center;
+align-items: baseline; alinha as tudo as linhas, ideal para tipografica
+
+
+align-items: flex-stretch; // column
+align-items: fle-start; // column
+align-items: flex-end; // column
+align-items: baseline; // column
+
+align contenters 
+
+alinha as linhas do container com base no eixo verticaal
+
+precisa ter a flex-wrap: wrap
+
+tem que ter sobra de espaço no container 
+
+propriedades
+
+align content: stretch; estica os itens para ocupaar todo o container 
+align content: flexstart; não estica mais os itens, ocupa o maximo do tamanho que for maisr nessa linha
+space between
+space around
+
+FLEX ITEMS
+
+FLX GROW
+define a habilidade do flex item de crescer 
+
+flex-grow: 0;
+flex-grow: 1;
+flex-grow: 2;
+flex-grow: misturado;
+
+flex basis indica o tamanho inicial do item antes de distribuir 
